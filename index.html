@@ -9,8 +9,38 @@
 </head>
 <body>
     <header>
-        <h3>News Website</h3>
+        <nav class="navbar">
+            <div class="navbar-container">
+                <a href="#" class="navbar-logo">News Website</a>
+                <svg class="ham hamRotate ham8" viewBox="0 0 100 100" width="60" onclick="this.classList.toggle('active')">
+                    <path class="line top" d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20" />
+                    <path class="line middle" d="m 30,50 h 40" />
+                    <path class="line bottom" d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20" />
+                </svg>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle">Technology</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">React</a></li>
+                            <li><a href="#">JavaScript</a></li>
+                            <li><a href="#">Web Design</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle">Tech News</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">What's New</a></li>
+                            <li><a href="#">Top Tech News</a></li>
+                            <li><a href="#">Technology Features</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="#" class="nav-link">Subscribe</a></li>
+                </ul>
+            </div>
+        </nav>
     </header>
+    
     <main>
         <section class="articles">
             <div class="article">
@@ -58,6 +88,17 @@
                 </div> 
             </div>
             <div class="article">
+                <div class="article-img">
+                    <img src="Images/google.avif" alt="">
+                </div>
+                <div class="article-content">
+                    <p class="tags">Technology, Progressive Web Apps, JavaScript</p> 
+                    <h3>JavaScript Libraries for Progressive Web Apps</h3>
+                    <i class="tags"> November 25,2024- Jae Young Ahn</i>
+                     
+                </div> 
+            </div>
+            
                 
             </div>
             <div class="article">
@@ -161,6 +202,6 @@
 
     </footer>
    
-<script src="script.js"></script>
+<script src="./javascript/script.js"></script>
 </body>
 </html>
