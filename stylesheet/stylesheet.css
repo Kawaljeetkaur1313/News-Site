@@ -277,7 +277,7 @@ main{
 }
 .article{
     width:90%;
-    height:400px;
+    /* height:400px; */
     padding:3px;
     /* border:1px solid black; */
     border-radius: 10px;
