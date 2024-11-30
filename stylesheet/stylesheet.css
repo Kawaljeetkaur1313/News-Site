@@ -524,18 +524,18 @@ main{
         font-size: 14px;
     }
     .article-img{
-        min-height:60%;
+        height:auto;
     }
     .article-content{
-        min-height:40%;
+        height:auto;
         font-size:14px;
     }
     .article:first-child .article-img{
-        min-height:70%;
+        height:70%;
     }
     .article:first-child .article-content{
         margin-top:10px;
-        min-height:25%;
+        height:25%;
         font-size:15px;
         line-height: 22px;
         text-align: justify;
